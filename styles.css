@@ -15,16 +15,17 @@ h1,
 h2,
 h3,
 h4 {
-  color: #fff;
+  color: #ffffff;
 }
 
 a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
 }
 
 p {
   margin: 0.5rem 0;
+  color: #ffffff;
 }
 
 img {
@@ -63,14 +64,15 @@ img {
 
 .content {
   background: #171717;
+  line-height: 1.2;
+  padding-bottom: 5px;
+  padding: 80px 85px 20px 85px;
+  margin-top: 20vh;
 }
 
 .content .ultimo-cta {
   text-align: center;
   font-size: 1.8rem;
-  line-height: 1.2;
-  padding-bottom: 5px;
-  padding: 80px 85px 20px 85px;
 }
 
 .content .ultimo-cta .text-h2 {
@@ -80,23 +82,31 @@ img {
   font-weight: bold;
 }
 
-.pink {
-  color: #dd0049;
+.row {
+  padding: 0 7%;
+  margin: 0 auto;
+  max-width: 1600px;
+  display: flex;
 }
 
-.row {
-  display: flex;
+.row .column .text-h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.mini-text {
+  margin-top: 5vh;
+      font-size: 14px;
+}
+
+.pink {
+  color: #dd0049;
 }
 
 .column {
   flex: 50%;
   padding: 10px;
-  margin-top: 30px;
-  font-size: 1.8rem;
-  font-weight: bold;
-  line-height: 1.2;
-  padding-bottom: 5px;
-  padding: 80px 85px 20px 85px;
+  margin-top: 10vh;
 }
 
 .btn {
