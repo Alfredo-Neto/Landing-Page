@@ -11,6 +11,22 @@ body {
   color: #999;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
 img {
   width: 100%;
 }
@@ -46,20 +62,41 @@ img {
 }
 
 .content {
-  display: flex;
-  flex-direction: column;
+  background: #171717;
 }
 
 .content .ultimo-cta {
   text-align: center;
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   line-height: 1.2;
   padding-bottom: 5px;
   padding: 80px 85px 20px 85px;
 }
 
-.content .ultimo-cta .text-h2 .pink {
+.content .ultimo-cta .text-h2 {
+  padding: 0 7%;
+  margin: 0 auto;
+  max-width: 1600px;
+  font-weight: bold;
+}
+
+.pink {
   color: #dd0049;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+  margin-top: 30px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.2;
+  padding-bottom: 5px;
+  padding: 80px 85px 20px 85px;
 }
 
 .btn {
