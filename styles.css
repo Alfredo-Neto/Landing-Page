@@ -96,7 +96,7 @@ img {
 
 .mini-text {
   margin-top: 5vh;
-      font-size: 14px;
+  font-size: 14px;
 }
 
 .pink {
@@ -107,6 +107,32 @@ img {
   flex: 50%;
   padding: 10px;
   margin-top: 10vh;
+}
+
+.column .img-column {
+}
+
+.column .img-column img {
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.onm-li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.onm-li img {
+  padding-right: 1.5rem;
+  margin-right: 1.6rem;
+}
+
+.col-3-6 {
+  justify-content: space-between;
 }
 
 .btn {
